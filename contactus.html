@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Co-workingspace for Kitesurfers.">
+    <meta name="keywords" content="kitesurfing, co-working, co-workingspace,">
+
+    <!-- Stylesheet -->
+    <title>work&kite</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">work&kite</a></h1>
+        <p id="header-p">Coworking Space for Kitesurfers and everyone who wants to become one</p>
+        <nav id="menu">
+            <ul id="nav-menu">
+                <li>
+                    <a id="contact" class="active" href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a id="about" href="about.html">Service</a>
+                </li>
+                <li>
+                    <a id="home" href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="main">
+        <h2 class="work-kite">Do you have any questions? Or du you want to make a reservation? Just contact us in the
+            form below. We, the work&kite team are always happy to help!</h2>
+        <div id="contact-form">
+            <div class="box-form">
+                <form action="https://www.sendmydatahere.com" method="POST" id="input-form">
+                    <input class="inputfields" type="text" placeholder="First Name" name="first_name">
+                    <br>
+                    <input class="inputfields" type="text" placeholder="Last Name" name="last_name">
+                    <br>
+                    <input class="inputfields" type="email" placeholder="Email Address" name="email">
+                    <br>
+                    <br>
+                    <p class="interests">What are you interested in?</p>
+
+                    <label class="interests" for="co-wo-space">Coworking Space</label>
+                    <input type="radio" id="co-wo-space" name="preference">
+
+                    <label class="interests" for="ki-bo-club">Kiteboarding Club</label>
+                    <input type="radio" id="ki-bo-club" name="preference">
+
+                    <label class="interests" for="all">All</label>
+                    <input type="radio" id="all" name="preference">
+                    <br>
+                    <br>
+                    <textarea placeholder=" send us your message" name="textarea" id="textarea" rows="10"
+                        cols="50"></textarea>
+                    <br>
+                    <input type="reset" name="reset" value="Reset" id="reset-button">
+                    <input type="submit" name="submit" value="Send" id="submit-button">
+                </form>
+            </div>
+            <div class="box-form">
+                <img id="contact-img" src="assets/images/team.jpg"
+                    alt="People jumping in the air on the beach at sunset.">
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <ul class="socialmedia" id="so-media">
+            <li><a class="some-link" href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="visit us on Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a class="some-link" href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="visit us on Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a class="some-link" href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="visit us on YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+    </footer>
+
+    <!-- fontawesom script -->
+    <script src="https://kit.fontawesome.com/885ac7435f.js" crossorigin="anonymous"></script>
+
+</body>
