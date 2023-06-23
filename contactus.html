@@ -39,12 +39,11 @@
             <h2 class="work-kite">Do you have any questions? Or du you want to make a reservation? Just contact us in the
                 form below. We, the work&kite team are always happy to help!</h2>
             <form action="thankyou.html" method="POST" id="input-form">
-                <input type="text" class="inputfields" placeholder="First Name" name="first_name">
+                <input type="text" placeholder="First Name" name="first_name" id="firstname">
                 <br>
-                <input type="text" class="inputfields"  placeholder="Last Name" name="last_name">
+                <input type="text" placeholder="Last Name" name="last_name" id="secondname">
                 <br>
-                <!-- <input type="email" name="email" id="email"> -->
-                <input type="email" class="inputfields" placeholder="Email Address" name="email">
+                <input type="email" placeholder="Email Address" name="email" id="email" required>
                 <br>
                 <br>
                 <p class="interests">What are you interested in?</p>
@@ -63,7 +62,7 @@
                     cols="50"></textarea>
                 <br>
                 <button type="reset" id="reset-button">Reset</a></button>
-                <button type="submit"id="submit-button"><a href="thankyou.html"target="_blank">Submit</a></button>
+                <button type="submit"id="submit-button"><a href="thankyou.html" target="_blank">Submit</a></button>
             </form>
         </div>
 

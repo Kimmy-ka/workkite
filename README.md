@@ -106,7 +106,7 @@ This website consists of three pages which can be reached via a navigation menu.
   * the work&kite title in the header serves as a link to the home page.
   * a responsive navigation bar with which the user can control the page.
   * a footer with links to socialmedia.
-![work&kite webpage title](assets/images/title.png)
+![work&kite webpage title](assets/images/header.png)
 ![work&kite webpage footer-links](assets/images/footer-links.png)
  
 * Home Page:
@@ -114,21 +114,21 @@ This website consists of three pages which can be reached via a navigation menu.
   * a photo of a coworking space with a short text about the services of the coworking Space.
   * a photo of a kitesurfer with a short text about the services of the Kiteboarding club.
   * an area in which the weekly events are displayed.
-![work&kite webpage homepage](assets/images/homepage.png)
+![work&kite webpage homepage](assets/images/indexpage.png)
 
 * Service Page:
   
   * a photo of a coworking space with detailed information on the facilities and services of the coworking space.
   * a photo of a kitesurfer with detailed information on the facilities and services of the Kiteboarding club.
   * an area in which images of the two fields are displayed.
-![work&kite webpage servicepage](assets/images/servicepage.png)
+![work&kite webpage servicepage](assets/images/aboutpage.png)
 
 * Contact Us Page:
   
   * a contact form that you can use to contact the work&kite team to ask questions or make a reservation.
   * a reset and a submit button.
   * a photo of the team so that the user feels personally cared for.
-![work&kite webpage contact](assets/images/contact.png)
+![work&kite webpage contact](assets/images/formpage.png)
 
 * Thank You Page:
   

@@ -215,7 +215,7 @@ h4 {
     padding-bottom: 40px;
 }
 
-.inputfields {
+#firstname, #secondname, #email {
     font-size: inherit;
     font-family: inherit;
     margin: 5px;
