@@ -98,7 +98,7 @@ Wireframes were created for mobile, tablet, medium screen and big screen desktop
 
 ### Features
 
-This website consists of three pages which can be reached via a navigation menu. There is a home, service and contact page.
+This website consists of three pages which can be reached via a navigation menu. There is a home, service and contact page. There is also a Thank You page that appears when the user submits a question or reservation via the form.
 
 * All pages of the web page have:
   
@@ -127,8 +127,15 @@ This website consists of three pages which can be reached via a navigation menu.
   
   * a contact form that you can use to contact the work&kite team to ask questions or make a reservation.
   * a reset and a submit button.
-  * A photo of the team so that the user feels personally cared for.
+  * a photo of the team so that the user feels personally cared for.
 ![work&kite webpage contact](assets/images/contact.png)
+
+* Thank You Page:
+  
+  * a header with the title and an explanatory sentence.
+  * a thank you box so the user knows their request worked.
+  * the page will open in a separate window.
+![work&kite webpage thankyou](assets/images/thankyou.png)
 
 * Future Implementations:
 
