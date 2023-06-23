@@ -135,6 +135,7 @@ This website consists of three pages which can be reached via a navigation menu.
   * Calendar display for reservations.
   * Reservation tool - to be able to book reservations directly.
   * detailed list of rental equipment and price list.
+  * Revision of the visuals to further improve the performance of the website.
 
 ### Accessibility
 
