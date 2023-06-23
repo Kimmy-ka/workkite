@@ -4,7 +4,7 @@ The work&kite website is a landing page for a coworking space right at the kite 
 
 On this website, users will find all the information they need about the equipment and service for both the coworking space and the Kiteboarding club. You can also send an inquiry if you have any questions or want to reserve a workspace.
 
-[Live Projekt Here](https://kimmy-ka.github.io/work-kite/)
+[Live Projekt Here](https://kimmy-ka.github.io/workkite/)
 
 ![work&kite webpage on multible devices](assets/images/amiresponsive.jpg)
 
