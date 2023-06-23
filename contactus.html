@@ -8,8 +8,9 @@
     <meta name="description" content="Co-workingspace for Kitesurfers.">
     <meta name="keywords" content="kitesurfing, co-working, co-workingspace,">
 
-    <!-- Stylesheet -->
     <title>work&kite</title>
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
@@ -17,10 +18,10 @@
     <header>
         <h1><a href="index.html">work&kite</a></h1>
         <p id="header-p">Coworking Space for Kitesurfers and everyone who wants to become one</p>
-        <nav id="menu">
-            <ul id="nav-menu">
+        <nav id="nav-menu">
+            <ul>
                 <li>
-                    <a id="contact" class="active" href="contact.html">Contact Us</a>
+                    <a id="contact" class="active" href="contactus.html">Contact Us</a>
                 </li>
                 <li>
                     <a id="about" href="about.html">Service</a>
@@ -34,43 +35,36 @@
     </header>
 
     <section class="main">
-        <h2 class="work-kite">Do you have any questions? Or du you want to make a reservation? Just contact us in the
-            form below. We, the work&kite team are always happy to help!</h2>
-        <div id="contact-form">
-            <div class="box-form">
-                <form action="thankyou.html" method="POST" id="input-form" class="signup-form">
-                    <input class="inputfields" type="text" placeholder="First Name" name="first_name">
-                    <br>
-                    <input class="inputfields" type="text" placeholder="Last Name" name="last_name">
-                    <br>
-                    <input class="inputfields" type="email" placeholder="Email Address" name="email">
-                    <br>
-                    <br>
-                    <p class="interests">What are you interested in?</p>
+        <div id="form">
+            <h2 class="work-kite">Do you have any questions? Or du you want to make a reservation? Just contact us in the
+                form below. We, the work&kite team are always happy to help!</h2>
+            <form action="thankyou.html" method="POST" id="input-form">
+                <input type="text" class="inputfields" placeholder="First Name" name="first_name">
+                <br>
+                <input type="text" class="inputfields"  placeholder="Last Name" name="last_name">
+                <br>
+                <!-- <input type="email" name="email" id="email"> -->
+                <input type="email" class="inputfields" placeholder="Email Address" name="email">
+                <br>
+                <br>
+                <p class="interests">What are you interested in?</p>
 
-                    <label class="interests" for="co-wo-space">Coworking Space</label>
-                    <input type="radio" id="co-wo-space" name="preference">
+                <label class="interests" for="co-wo-space">Coworking Space</label>
+                <input type="radio" id="co-wo-space" name="preference" class="preference">
 
-                    <label class="interests" for="ki-bo-club">Kiteboarding Club</label>
-                    <input type="radio" id="ki-bo-club" name="preference">
+                <label class="interests" for="ki-bo-club">Kiteboarding Club</label>
+                <input type="radio" id="ki-bo-club" name="preference" class="preference">
 
-                    <label class="interests" for="all">All</label>
-                    <input type="radio" id="all" name="preference">
-                    <br>
-                    <br>
-                    <textarea placeholder=" send us your message" name="textarea" id="textarea" rows="10"
-                        cols="50"></textarea>
-                    <br>
-                    <button type="reset" id="reset-button">Reset</a></button>
-                    <button type="submit"id="submit-button"><a href="thankyou.html"target="_blank">Submit</a></button>
-                    <!-- <input type="reset" name="reset" value="Reset" id="reset-button">
-                    <input type="submit" name="submit" value="Send" id="submit-button"> -->
-                </form>
-            </div>
-            <div class="box-form">
-                <img id="contact-img" src="assets/images/team.jpg"
-                    alt="People jumping in the air on the beach at sunset.">
-            </div>
+                <label class="interests" for="all">All</label>
+                <input type="radio" id="all" name="preference" class="preference">
+                <br>
+                <br>
+                <textarea placeholder=" send us your message" name="textarea" id="textarea" rows="10"
+                    cols="50"></textarea>
+                <br>
+                <button type="reset" id="reset-button">Reset</a></button>
+                <button type="submit"id="submit-button"><a href="thankyou.html"target="_blank">Submit</a></button>
+            </form>
         </div>
 
     </section>
